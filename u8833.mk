@@ -19,13 +19,6 @@ $(call inherit-product, device/huawei/msm7x27a-common/msm7x27a.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/huawei/u8833/overlay
 
-# Packages
-PRODUCT_PACKAGES += \
-    FM2 \
-    FMRecord \
-    libqcomfm_jni \
-    qcom.fmradio
-
 # Files
 PRODUCT_COPY_FILES += \
     device/huawei/u8833/rootdir/fstab.huawei:root/fstab.huawei \

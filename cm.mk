@@ -30,7 +30,3 @@ TARGET_SCREEN_WIDTH := 480
 # Device name
 PRODUCT_NAME := cm_u8833
 PRODUCT_DEVICE := u8833
-
-# CM packages
-PRODUCT_PACKAGES += \
-    Torch
